@@ -6,7 +6,7 @@ int main() {
 
 	const std::string& TOKEN = env["ARTIFACTS_API_TOKEN"];
 
-	Logger::open();
+	Logger::open("hilbert.log");
 	Logger::info("Hello, World!");
 	Logger::debug("This is a debug message.");
 	Logger::warn("This is a warning message.");

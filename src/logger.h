@@ -25,6 +25,7 @@ class Logger {
 	static void setLogLevel(const LogLevel lvl);
 
 	static void open();
+	static void open(std::string logFileName);
 	static void close();
 
   private:

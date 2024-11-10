@@ -72,6 +72,10 @@ void Logger::open() {
 	logFile.open(logFileName, std::ios::out | std::ios::app);
 }
 
+void Logger::open(std::string customLogFileName) {
+	logFile.open(customLogFileName, std::ios::out | std::ios::app);
+}
+
 void Logger::close() {
 	logFile.close();
 }
