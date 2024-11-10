@@ -1,0 +1,69 @@
+---
+Language: Cpp
+
+# Aligns function declarations and definitions to the same style.
+AlignConsecutiveDeclarations: false
+AlignConsecutiveAssignments: false
+AlignEscapedNewlines: Right
+AlignOperands: true
+AlignTrailingComments: true
+
+# Brace wrapping options
+BreakBeforeBraces: Attach
+BraceWrapping:
+    AfterClass: true
+    AfterControlStatement: true
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: false
+    BeforeCatch: true
+    BeforeElse: true
+    IndentBraces: false
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+
+# Control space before and after elements
+SpaceBeforeParens: ControlStatements
+SpaceAfterCStyleCast: true # Ensure space after C-style casts
+SpaceBeforeSquareBrackets: false
+
+# Column width (after which lines are wrapped)
+ColumnLimit: 80
+
+# Whether to allow all parameters of a function declaration/definition on the same line
+AllowShortFunctionsOnASingleLine: InlineOnly
+
+# How to format pointers and references
+PointerAlignment: Left
+
+# Reformatting options for function declarations and calls
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+BreakConstructorInitializersBeforeComma: false
+BreakConstructorInitializers: BeforeColon
+ConstructorInitializerIndentWidth: 4
+
+# Function parameter formatting
+BinPackParameters: false
+BinPackArguments: false
+
+# Reflow comments to fit within column limit
+ReflowComments: true
+
+# Control formatting of includes
+SortIncludes: true
+IncludeBlocks: Regroup
+
+# Function call style
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+
+# Formatting for lambdas
+IndentWrappedFunctionNames: false
+
+# Align arguments vertically if there's a line break
+AlignAfterOpenBracket: true
