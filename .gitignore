@@ -15,3 +15,7 @@ hilbert
 
 # Environment
 .env
+
+# Build
+build
+bin
